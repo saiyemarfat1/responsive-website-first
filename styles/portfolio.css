@@ -249,6 +249,7 @@ textarea {
     .header {
         background-image: none;
     }
+
     nav,
     nav>ul,
     .skill-container,
@@ -258,55 +259,61 @@ textarea {
     .banner {
         flex-direction: column;
     }
-    
-nav>ul {
-    gap: 10px;
-}
-.btn-primary{
-    margin-bottom: 15px;
-}
-.banner {
-    padding: 30px 30px 0px 0px;
-    text-align: center;
-}
 
-.banner .profile-pic {
-    width: 100%;
-}
-.banner-description{
-    padding: 5px;
-    text-align: center;
-}
+    nav>ul {
+        gap: 10px;
+    }
 
-#what-i-do-description {
-    padding: 10px;
-    text-align: justify;
-}
+    .btn-primary {
+        margin-bottom: 15px;
+    }
 
-.resume-container {
-    padding: 5px;
-}
+    .banner {
+        padding: 30px 30px 0px 0px;
+        text-align: center;
+    }
 
-footer {
-    padding: 10px;
+    .banner .profile-pic {
+        width: 100%;
+    }
 
-}
+    .banner-description {
+        padding: 5px;
+        text-align: justify;
+    }
 
-.footer-column {
-    width: 100%;
-}
+    #what-i-do-description {
+        padding: 10px;
+        text-align: justify;
+    }
 
-.contact input[type="text"],
-.contact input[type="email"],
-textarea {
-    width: 80%;
-}
+    .resume-container {
+        padding: 5px;
+    }
 
-.about {
-    padding: 10px;
-    border-radius: 10px;
-    background: #FFF8F3;
-}
+    footer {
+        padding: 10px;
+
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"],
+    textarea {
+        width: 80%;
+    }
+
+    .about {
+        padding: 10px;
+        border-radius: 10px;
+        background: #FFF8F3;
+    }
+    .section-description{
+        text-align: justify;
+    }
 }
 
 
