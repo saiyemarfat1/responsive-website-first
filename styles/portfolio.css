@@ -312,7 +312,24 @@ textarea {
         background: #FFF8F3;
     }
     .section-description{
-        text-align: justify;
+        text-align: center;
+    }
+    .skill-container{
+        align-items: center;
+        text-align: center;
+    }
+    .resume-container{
+        align-items: center;
+        text-align: center;
+    }
+    .footer{
+        align-items: center;
+        text-align: center; 
+    }
+    .social-links a{
+        align-items: center;
+        width: 100%;
+   
     }
 }
 
